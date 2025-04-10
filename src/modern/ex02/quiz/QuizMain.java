@@ -20,7 +20,9 @@ public class QuizMain {
         prettyPrintApple(inventory, new AppleSimpleFormatter());
         prettyPrintApple(inventory, new AppleFancyFormatter());
 
+
     }
+
     private static void prettyPrintApple(
             List<Apple> inventory,
             AppleFormatter formatter
