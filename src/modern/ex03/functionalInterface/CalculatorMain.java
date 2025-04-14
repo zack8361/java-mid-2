@@ -17,6 +17,7 @@ public class CalculatorMain {
         // 2. 람다식 사용
         MyCalculator myCalculator2 = (a, b) -> a + b;
 
+
         // 3. 메서드 레퍼런스 사용
         MyCalculator myCalculator3 = Integer::sum;
 

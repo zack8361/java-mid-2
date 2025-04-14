@@ -10,6 +10,5 @@ package modern.ex03.functionalInterface;
  */
 @FunctionalInterface
 public interface MyCalculator {
-
     int calculate(int a, int b);
 }
